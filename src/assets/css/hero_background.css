@@ -1,0 +1,16 @@
+#hero_background {
+    /* transform: rotate(180deg); */
+    transform: scaleX(-1);
+}
+
+.slider_arrow {
+    /* Layout Properties */
+    top: 1803px;
+    left: 1721px;
+    width: 67px;
+    height: 75px;
+    /* UI Properties */
+    background: transparent linear-gradient(180deg, #FFDD15 0%, var(--unnamed-color-00ffff) 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #FFDD15 0%, #00FFFF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}

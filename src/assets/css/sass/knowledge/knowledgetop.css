@@ -1,0 +1,38 @@
+.aiText {
+  background-image: url(../../../HeroBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+  color: white;
+  font-weight: 300;
+}
+.aiText::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #001123;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.knowledge_border {
+  border-bottom: 3px solid #F5D537;
+}
+.knowledge_border .parallelogram {
+  -webkit-clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+}
+
+.trainingItem {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.trainingInfo {
+  font-size: 14px;
+  font-weight: 400;
+}/*# sourceMappingURL=knowledgetop.css.map */

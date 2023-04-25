@@ -1,0 +1,77 @@
+@import './variables';
+
+.middleSection{
+    background-image: url(../../../bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+
+    &::after{
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #001123;
+        opacity: 0.8;
+        z-index: -1;
+    }
+
+}
+
+.border_left{
+    border-left: 2px solid white;
+    margin-right: 4px;
+    border-width: 2px;
+    border-color: $primaryColor;
+}
+
+.border_middle{
+    border-left: 2px solid white;
+    margin-right: 4px;
+    border-width: 2px;
+    border-color: $yellowColor;
+}
+
+.propositionItem{
+    border: 1px solid $primaryColor !important;  
+    
+    &:nth-child(2){
+        border: 1px solid $yellowColor ;
+    }
+
+    .transform{
+        color: $primaryColor;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .africa{
+        color: $primaryColor;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .value{
+        color: $yellowColor;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
+.middleSpecial{
+    color: $yellowColor;
+    font-weight: 400;
+}
+
+.offer{
+    color: white;
+    font-weight: 400;
+    font-size: 8vw;
+}
+
+.first{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+}

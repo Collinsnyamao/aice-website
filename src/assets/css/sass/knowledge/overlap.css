@@ -1,0 +1,55 @@
+.parent {
+  position: relative;
+  height: 270px;
+  width: 270px;
+}
+
+.child1 {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  border: 2px solid #5BF8FD;
+  opacity: 0.9;
+  margin-bottom: 30vh;
+}
+
+.child2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 400px;
+  height: 150px;
+  z-index: 2;
+  background: #D5FDFE;
+  opacity: 0.9;
+  color: black;
+}
+.child2 .applyBtn {
+  background: #5BF8FD;
+  font-weight: 400;
+}
+
+.child3 {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  border: 2px solid #F5D537;
+  opacity: 0.9;
+  margin-bottom: 30vh;
+}
+
+.child4 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 400px;
+  height: 150px;
+  z-index: 2;
+  background: #FFF095;
+  opacity: 0.9;
+  color: black;
+}
+.child4 .secondApplyBtn {
+  background: #F5D537;
+  font-weight: 400;
+}/*# sourceMappingURL=overlap.css.map */

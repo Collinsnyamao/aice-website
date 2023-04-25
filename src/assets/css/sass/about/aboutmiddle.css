@@ -1,0 +1,65 @@
+.middleSection {
+  background-image: url(../../../HeroBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+.middleSection::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #001123;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.border_left {
+  border-left: 2px solid white;
+  margin-right: 4px;
+  border-width: 2px;
+  border-color: #5BF8FD;
+}
+
+.border_middle {
+  border-left: 2px solid white;
+  margin-right: 4px;
+  border-width: 2px;
+  border-color: #F5D537;
+}
+
+.propositionItem {
+  border: 1px solid #5BF8FD !important;
+}
+.propositionItem:nth-child(2) {
+  border: 1px solid #F5D537;
+}
+.propositionItem .transform {
+  color: #5BF8FD;
+  font-weight: 700;
+  font-size: 16px;
+}
+.propositionItem .africa {
+  color: #5BF8FD;
+  font-weight: 700;
+  font-size: 16px;
+}
+.propositionItem .value {
+  color: #F5D537;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.middleSpecial {
+  color: #F5D537;
+  font-weight: 400;
+}
+
+.offer {
+  color: white;
+  font-weight: 400;
+  font-size: 8vw;
+}/*# sourceMappingURL=aboutmiddle.css.map */

@@ -1,0 +1,19 @@
+.knowledge{
+    width: 100%;
+
+}
+@media (max-width: 576px) {
+    .robot{
+        display: none;
+    }
+    .knowledge{
+        display: flex;
+        flex-direction: column;
+    }
+    .knowledgeItem{
+        width: 100%;
+    }
+    .aiCard{
+        width: 100%;
+    }
+}

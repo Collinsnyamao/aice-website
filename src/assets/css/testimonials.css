@@ -1,0 +1,94 @@
+/* .shadow-effect {
+    background: #000D20;
+    padding: 20px;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 9px;
+    height: 24vh;
+    border: 1px solid #ECECEC;
+  } */
+
+  .shadow{
+    /* background: #000D20; */
+    /* padding: 20px; */
+    text-align: center;
+    box-shadow: none;
+    /* font-size: 9px; */
+    /* height: 24vh; */
+    /* border: 1px solid #ECECEC; */
+    /* box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02); */
+  }
+
+  /* #shadow-effect p {
+    font-family: inherit;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+  }
+  .img-circle {
+    vertical-align: middle;
+    max-width: 40px;
+    min-height: 40px;
+    transform-style: preserve-3d;
+    margin: -34px 0px 14px 90px ;
+    object-fit: cover;
+  }
+
+  #customer-testimonoals {
+    margin-top: 6%;
+  } */
+  /* .testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 9px 18px rgba(0,0,0,0.12), 0px 5px 7px rgba(0,0,0,0.5);
+  } */
+
+  /* #customer-testimonials .item{
+    text-align: center;
+    box-shadow: none;
+    margin-bottom: 0px;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+  }
+  #customer-testimonoals .item {
+    text-align: center;
+    padding: 50px;
+    width: 400px;
+    margin-bottom: 0px;
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+  }
+  #customer-testimonoals .owl-item.active.center .item {
+    opacity: 1;
+    transform: scale3d(1.4, 1.4, 1);
+  } */
+  /* #customer-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  .owl-carousel .owl-dots {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  .owl-carousel .owl-dots .owl-dot{ 
+    display: inline-block;
+  }
+  .owl-carousel .owl-dots .owl-dot span{ 
+    background: #eaa400;
+    background: #56423D;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 2px 5px;
+    transform: translate3d(0px, -50%, 0px) scale(0.3);
+    transform-origin: 50% 50% 0;
+    transition: all 250ms ease-out 0s;
+  }  */

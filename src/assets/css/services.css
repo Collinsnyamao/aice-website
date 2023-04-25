@@ -1,0 +1,63 @@
+/* @media (max-width: 576px) {
+    .serviceImg{
+        display: none;
+    }
+    .diagnostic{
+        display: none;
+    }
+    .diagnosticTitle{
+        display: none;
+    }
+    .services{
+        display: grid;
+    }
+    .serviceItem{
+        width: 100%;
+    }
+    .outSourcedDesc{
+        display: none;
+    }
+}
+
+@media (min-width: 572px) {
+    .diagnostic{
+        display: none;
+    }
+    .diagnosticTitle{
+        display: none;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .serviceItem{
+        width: 100%;
+    }
+    .outSourcedDesc{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .diagnostic{
+        display: flex;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .serviceItem{
+        width: 100%;
+    }
+    .outSourcedDesc{
+        display: block;
+    }
+}
+@media (min-width: 1200px) {
+    .services{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .serviceItem{
+        width: 100%;
+    }
+} */

@@ -1,0 +1,17 @@
+/* @media (max-width: 576px) {
+    .loginContainer{
+       display: grid;
+       grid-template-columns: repeat(1fr);
+    }
+    .loginContainer > .loginImg{
+        max-width: 100%;;
+    
+    }
+    .loginForm{
+        width: 100%;
+
+    }
+ } */
+ .loginContainer{
+    width: 100%;
+ }

@@ -1,0 +1,41 @@
+.formItem > .form-control:focus{
+    box-shadow: none;
+}
+div > .form-control:focus{
+    box-shadow: none;
+}
+
+@media (max-width: 576px) {
+    .formGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    .formItem{
+        width: 100%;
+    }
+    .applyBtn{
+        width: 100%;
+    }
+ }
+ @media (min-width: 577px) {
+    .formGroup{
+        display: flex;
+    }
+    .formItem{
+        width: 100%;
+    }
+    .applyBtn{
+        width: 100%;
+    }
+ }
+ @media (min-width: 768px) {
+    .formGroup{
+        display: flex;
+    }
+    .formItem{
+        width: 100%;
+    }
+    .applyBtn{
+        width: 30%;
+    }
+ }
